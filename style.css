@@ -1,0 +1,55 @@
+
+.header-nav {
+  padding: 10px;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(#ffffff, #f1f1f1);
+}
+.nav-left {
+  display: flex;
+}
+.top {
+  color: #ffffff;
+  background-image: url(./img/pankaj-patel-561360-unsplash.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4em;
+}
+.vision {
+  color: #fbff08;
+  background-image: url(./img/drew-saurus-388076-unsplash.jpg);
+  background-size: cover;
+  background-position-y: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.how-list > .item {
+  width: 200px;
+  height: 200px;
+  border: solid 1px #000000;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.how {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(#ffffff, #d1ffc3);
+}
+
+.how-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 95%;
+}

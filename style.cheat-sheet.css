@@ -14,7 +14,7 @@ header {
   position: sticky;
   top: 0;
 }
-
+/* added */
 .header-nav {
   padding: 10px;
   padding-right: 30px;
@@ -24,7 +24,7 @@ header {
   align-items: center;
   background: linear-gradient(#ffffff, #f1f1f1);
 }
-
+/* added */
 .nav-left {
   display: flex;
 }
@@ -48,7 +48,7 @@ header {
 .nav-right > button > a {
   text-decoration: none;
 }
-
+/* added */
 .top {
   color: #ffffff;
   background-image: url(./img/pankaj-patel-561360-unsplash.jpg);
@@ -58,7 +58,7 @@ header {
   align-items: center;
   font-size: 1.4em;
 }
-
+/* added */
 .vision {
   color: #fbff08;
   background-image: url(./img/drew-saurus-388076-unsplash.jpg);
@@ -72,7 +72,7 @@ header {
 .vision > .contents {
   width: 90%;
 }
-
+/* added */
 .how {
   display: flex;
   justify-content: space-around;
@@ -80,14 +80,14 @@ header {
   flex-direction: column;
   background: linear-gradient(#ffffff, #d1ffc3);
 }
-
+/* added */
 .how-list {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 95%;
 }
-
+/* added */
 .how-list > .item {
   width: 200px;
   height: 200px;
