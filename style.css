@@ -1,55 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  z-index: 5;
+  background: white;
+}
 
 .header-nav {
-  padding: 10px;
-  padding-right: 30px;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-left {
+  height: 60px;
+  width: 350px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
-  background: linear-gradient(#ffffff, #f1f1f1);
 }
-.nav-left {
-  display: flex;
+
+.icon img {
+  height: 60px;
 }
+
 .top {
-  color: #ffffff;
-  background-image: url(./img/pankaj-patel-561360-unsplash.jpg);
+  color: white;
+  background-image: url(./img/bg.jpg);
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.4em;
+  height: 80vh;
+  width: 100%;
 }
+
 .vision {
-  color: #fbff08;
-  background-image: url(./img/drew-saurus-388076-unsplash.jpg);
-  background-size: cover;
-  background-position-y: 80%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 50vh;
 }
+
+.vision .contents {
+  width: 680px;
+}
+
+.how {
+  width: 1280px;
+  min-height: 50vh;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
 .how-list > .item {
   width: 200px;
   height: 200px;
-  border: solid 1px #000000;
-  border-radius: 10px;
+  border: solid 1px gray;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
 }
-.how {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: column;
-  background: linear-gradient(#ffffff, #d1ffc3);
-}
 
-.how-list {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 95%;
+footer p {
+  margin: auto;
+  text-align: center;
 }
